@@ -19,5 +19,5 @@ function cnsptAdd() {
 }
 
 buttonTap.addEventListener('click', function() {
-    removeWallet(index);
+    cnsptAdd();
 });
