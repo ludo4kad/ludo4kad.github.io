@@ -6,6 +6,10 @@ body {
     background-color: var(--tg-theme-bg-color);
 }
 
+h1,h2 {
+    text-align: center;
+}
+
 .container {
     max-width: 600px;
     margin: auto;
@@ -22,7 +26,7 @@ input {
 }
 
 .button {
-    padding: 13px 19px;
+    padding: 7px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -35,12 +39,30 @@ input {
     cursor: pointer;
 }
 
-ul {
+li {
     list-style-type: none;
-    padding: 0;
+    padding: 10px;
+    border-bottom: 1px solid var(--tg-theme-section-separator-color);
 }
 
-li {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
+bottom {
+    color: var(--tg-theme-hint-color);
+    position: fixed;
+    left: 50%;
+    translate: -50% -0%;
+    bottom: 10px;
+}
+
+p.balance {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Arial;
+    margin: 0;
+    text-align: center;
+}
+p.val {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: monospace;
+    text-align: center;
 }
