@@ -5,7 +5,7 @@ const tgUser = tg.initDataUnsafe.user;
 tg.expand();
 //QUERY
 kilim = document.querySelector("li#walletList");
-fejfa = document.querySelector("bottom");
+fejfa = document.querySelector("div.bottom");
 cnspt = document.querySelector("p.val");
 buttonTap = document.querySelector("button.button");
 
